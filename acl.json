@@ -1,0 +1,218 @@
+[
+  {
+    "group": "ROOT",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ],
+    "access": "*"
+  },
+  {
+    "group": "ADMIN",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ],
+    "access": "*"
+  },
+  {
+    "group": "MODERATOR",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ],
+    "access": "*"
+  },
+  {
+    "group": "MODERATOR",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ],
+    "access": "*"
+  },
+  {
+    "group": "INFLUENCER",
+    "permissions": [
+      {
+        "resource": "users",
+        "methods": ["GET", "PATCH"],
+        "action": "allow"
+      },
+      {
+        "resource": "configurations",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "resources",
+        "methods": ["POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "rekogntion",
+        "methods": ["POST", "DELETE"],
+        "action": "allow"
+      },
+      {
+        "resource": "wallets",
+        "methods": ["GET", "PATCH"],
+        "action": "allow"
+      },
+      {
+        "resource": "merchants",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "accounts",
+        "methods": ["GET", "PATCH"],
+        "action": "allow"
+      },
+      {
+        "resource": "regions",
+        "methods": [],
+        "action": "allow"
+      },
+      {
+        "resource": "configurations",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "cards",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "payments",
+        "methods": ["GET", "DELETE", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "notifications",
+        "methods": ["PUT", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "shops/stores",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "shops/categories",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "shops/products",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "tiles",
+        "methods": ["GET"],
+        "action": "allow"
+      }
+    ],
+    "access": "module"
+  },
+  {
+    "group": "BRAND_MANAGERS",
+    "permissions": [
+      {
+        "resource": "users",
+        "methods": ["GET", "PATCH"],
+        "action": "allow"
+      },
+      {
+        "resource": "configurations",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "resources",
+        "methods": ["POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "rekogntion",
+        "methods": ["POST", "DELETE"],
+        "action": "allow"
+      },
+      {
+        "resource": "wallets",
+        "methods": ["GET", "PATCH"],
+        "action": "allow"
+      },
+      {
+        "resource": "merchants",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "accounts",
+        "methods": ["GET", "PATCH"],
+        "action": "allow"
+      },
+      {
+        "resource": "regions",
+        "methods": [],
+        "action": "allow"
+      },
+      {
+        "resource": "configurations",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "cards",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "payments",
+        "methods": ["GET", "DELETE", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "notifications",
+        "methods": ["PUT", "POST"],
+        "action": "allow"
+      },
+      {
+        "resource": "shops/stores",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "shops/categories",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "shops/products",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "tiles",
+        "methods": ["GET"],
+        "action": "allow"
+      }
+    ],
+    "access": "module"
+  }
+]
